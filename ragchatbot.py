@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY") or st.secrets["OPENAI_API_KEY"]
 
-st.header('AkashChatBot')
+st.header('RAGChatBot')
 
 with st.sidebar:
     st.title('RagChatBot documents')
