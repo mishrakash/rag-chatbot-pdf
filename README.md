@@ -18,3 +18,7 @@ A simple Retrieval-Augmented Generation (RAG) chatbot using Streamlit, LangChain
 ## ⚙️ Setup
 
 1. Clone repo:
+
+## 📸 Demo
+
+![App Screenshot](screenshot.png)
