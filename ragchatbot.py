@@ -11,7 +11,7 @@ from langchain_core.runnables import RunnablePassthrough
 import os
 from dotenv import load_dotenv
 load_dotenv()
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY") or st.secrets["OPENAI_API_KEY"]
 
 st.header('AkashChatBot')
 
